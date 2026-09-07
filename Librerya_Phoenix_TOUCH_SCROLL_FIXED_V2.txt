@@ -1,0 +1,1320 @@
+-- DeоЬfuѕсatеd Ьy LеaκD | discord.gg/qteAQmfJmP
+
+local v1 = Color3.fromRGB(41, 74, 122)
+v1 = Vector2.new(400, 300)
+v1 = game:GetService("CoreGui")
+v1 = v1:FindFirstChild("imgui")
+
+if not v1 then
+	v1:Destroy()
+end
+
+v1 = Instance.new("ScreenGui")
+local v2 = Instance.new("Frame")
+local v3 = Instance.new("TextLabel")
+local v4 = Instance.new("ImageLabel")
+local v5 = Instance.new("Frame")
+local v6 = Instance.new("Frame")
+local v7 = Instance.new("ImageButton")
+local v8 = Instance.new("ImageLabel")
+local v9 = Instance.new("ImageLabel")
+local v10 = Instance.new("Frame")
+local v11 = Instance.new("TextLabel")
+local v12 = Instance.new("ImageLabel")
+local v13 = Instance.new("Frame")
+local v14 = Instance.new("UIListLayout")
+local v15 = Instance.new("Frame")
+local v16 = Instance.new("Frame")
+local v17 = Instance.new("UIListLayout")
+local v18 = Instance.new("TextBox")
+local v19 = Instance.new("ImageLabel")
+local v20 = Instance.new("ImageLabel")
+local v21 = Instance.new("TextLabel")
+local v22 = Instance.new("ImageLabel")
+local v23 = Instance.new("TextLabel")
+local v24 = Instance.new("TextLabel")
+local v25 = Instance.new("TextLabel")
+local v26 = Instance.new("ImageLabel")
+local v27 = Instance.new("UIListLayout")
+local v28 = Instance.new("TextButton")
+local v29 = Instance.new("ImageLabel")
+local v30 = Instance.new("ImageButton")
+local v31 = Instance.new("ScrollingFrame")
+local v32 = Instance.new("UIListLayout")
+local v33 = Instance.new("ImageLabel")
+local v34 = Instance.new("TextButton")
+local v35 = Instance.new("ImageLabel")
+local v36 = Instance.new("ImageLabel")
+local v37 = Instance.new("TextButton")
+local v38 = Instance.new("ImageLabel")
+local v39 = Instance.new("ImageLabel")
+local v40 = Instance.new("Frame")
+local v41 = Instance.new("UIListLayout")
+local v42 = Instance.new("Frame")
+local v43 = Instance.new("UIListLayout")
+local v44 = Instance.new("ImageLabel")
+local v45 = Instance.new("ScrollingFrame")
+local v46 = Instance.new("TextBox")
+local v47 = Instance.new("TextLabel")
+local v48 = Instance.new("TextLabel")
+local v49 = Instance.new("TextLabel")
+local v50 = Instance.new("TextLabel")
+local v51 = Instance.new("TextLabel")
+local v52 = Instance.new("TextLabel")
+local v53 = Instance.new("TextLabel")
+local v54 = Instance.new("TextLabel")
+local v55 = Instance.new("TextLabel")
+local v56 = Instance.new("ImageLabel")
+local v57 = Instance.new("ImageLabel")
+local v58 = Instance.new("ImageLabel")
+local v59 = Instance.new("ImageLabel")
+local v60 = Instance.new("ImageLabel")
+local v61 = Instance.new("Frame")
+local v62 = Instance.new("TextButton")
+local v63 = Instance.new("ImageLabel")
+local v64 = Instance.new("TextLabel")
+local v65 = Instance.new("TextButton")
+local v66 = Instance.new("ImageLabel")
+local v67 = Instance.new("TextButton")
+local v68 = Instance.new("ImageLabel")
+local v69 = Instance.new("TextLabel")
+local v70 = Instance.new("TextButton")
+local v71 = Instance.new("ImageLabel")
+local v72 = Instance.new("Frame")
+v1.Name = "imgui"
+local v73 = game:GetService("CoreGui")
+
+if v73 then
+	v73 = gethui()
+end
+
+v1.Parent = v73
+v2.Name = "Prefabs"
+v2.Parent = v1
+v73 = Color3.new(1, 1, 1)
+v2.BackgroundColor3 = v73
+v73 = UDim2.new(0, 100, 0, 100)
+v2.Size = v73
+v2.Visible = false
+v3.Name = "Label"
+v3.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v3.BackgroundColor3 = v73
+v3.BackgroundTransparency = 1
+v73 = UDim2.new(0, 200, 0, 20)
+v3.Size = v73
+v3.Font = Enum.Font.Garamond
+v3.Text = "Hello, world 123"
+v73 = Color3.new(1, 1, 1)
+v3.TextColor3 = v73
+v3.TextSize = 17
+v3.TextXAlignment = Enum.TextXAlignment.Left
+v4.Name = "Window"
+v4.Parent = v2
+v4.Active = true
+v73 = Color3.new(1, 1, 1)
+v4.BackgroundColor3 = v73
+v4.BackgroundTransparency = 1
+v4.ClipsDescendants = true
+v73 = UDim2.new(0, 20, 0, 20)
+v4.Position = v73
+v4.Selectable = true
+v73 = UDim2.new(0, 200, 0, 200)
+v4.Size = v73
+v4.Image = "rbxassetid://2851926732"
+v73 = Color3.new(0.0823529, 0.0862745, 0.0901961)
+v4.ImageColor3 = v73
+v4.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(12, 12, 12, 12)
+v4.SliceCenter = v73
+v5.Name = "Resizer"
+v5.Parent = v4
+v5.Active = true
+v73 = Color3.new(1, 1, 1)
+v5.BackgroundColor3 = v73
+v5.BackgroundTransparency = 1
+v5.BorderSizePixel = 0
+v73 = UDim2.new(1, -20, 1, -20)
+v5.Position = v73
+v73 = UDim2.new(0, 20, 0, 20)
+v5.Size = v73
+v6.Name = "Bar"
+v6.Parent = v4
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v6.BackgroundColor3 = v73
+v6.BorderSizePixel = 0
+v73 = UDim2.new(0, 0, 0, 5)
+v6.Position = v73
+v73 = UDim2.new(1, 0, 0, 15)
+v6.Size = v73
+v7.Name = "Toggle"
+v7.Parent = v6
+v73 = Color3.new(1, 1, 1)
+v7.BackgroundColor3 = v73
+v7.BackgroundTransparency = 1
+v73 = UDim2.new(0, 5, 0, -2)
+v7.Position = v73
+v7.Rotation = 90
+v73 = UDim2.new(0, 20, 0, 20)
+v7.Size = v73
+v7.ZIndex = 2
+v7.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=4731371541"
+v8.Name = "Base"
+v8.Parent = v6
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v8.BackgroundColor3 = v73
+v8.BorderSizePixel = 0
+v73 = UDim2.new(0, 0, 0.800000012, 0)
+v8.Position = v73
+v73 = UDim2.new(1, 0, 0, 10)
+v8.Size = v73
+v8.Image = "rbxassetid://2851926732"
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v8.ImageColor3 = v73
+v8.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(12, 12, 12, 12)
+v8.SliceCenter = v73
+v9.Name = "Top"
+v9.Parent = v6
+v73 = Color3.new(1, 1, 1)
+v9.BackgroundColor3 = v73
+v9.BackgroundTransparency = 1
+v73 = UDim2.new(0, 0, 0, -5)
+v9.Position = v73
+v73 = UDim2.new(1, 0, 0, 10)
+v9.Size = v73
+v9.Image = "rbxassetid://2851926732"
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v9.ImageColor3 = v73
+v9.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(12, 12, 12, 12)
+v9.SliceCenter = v73
+v10.Name = "Tabs"
+v10.Parent = v4
+v73 = Color3.new(1, 1, 1)
+v10.BackgroundColor3 = v73
+v10.BackgroundTransparency = 1
+v73 = UDim2.new(0, 15, 0, 60)
+v10.Position = v73
+v73 = UDim2.new(1, -30, 1, -60)
+v10.Size = v73
+v11.Name = "Title"
+v11.Parent = v4
+v73 = Color3.new(1, 1, 1)
+v11.BackgroundColor3 = v73
+v11.BackgroundTransparency = 1
+v73 = UDim2.new(0, 30, 0, 3)
+v11.Position = v73
+v73 = UDim2.new(0, 200, 0, 20)
+v11.Size = v73
+v11.Font = Enum.Font.Garamond
+v11.Text = "Gamer Time"
+v73 = Color3.new(1, 1, 1)
+v11.TextColor3 = v73
+v11.TextSize = 20
+v11.TextXAlignment = Enum.TextXAlignment.Left
+v12.Name = "TabSelection"
+v12.Parent = v4
+v73 = Color3.new(1, 1, 1)
+v12.BackgroundColor3 = v73
+v12.BackgroundTransparency = 1
+v73 = UDim2.new(0, 15, 0, 30)
+v12.Position = v73
+v73 = UDim2.new(1, -30, 0, 25)
+v12.Size = v73
+v12.Visible = false
+v12.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.145098, 0.14902, 0.156863)
+v12.ImageColor3 = v73
+v12.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v12.SliceCenter = v73
+v13.Name = "TabButtons"
+v13.Parent = v12
+v73 = Color3.new(1, 1, 1)
+v13.BackgroundColor3 = v73
+v13.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v13.Size = v73
+v14.Parent = v13
+v14.FillDirection = Enum.FillDirection.Horizontal
+v14.SortOrder = Enum.SortOrder.LayoutOrder
+v73 = UDim.new(0, 2)
+v14.Padding = v73
+v15.Parent = v12
+v73 = Color3.new(0.12549, 0.227451, 0.372549)
+v15.BackgroundColor3 = v73
+v73 = Color3.new(0.105882, 0.164706, 0.207843)
+v15.BorderColor3 = v73
+v15.BorderSizePixel = 0
+v73 = UDim2.new(0, 0, 1, 0)
+v15.Position = v73
+v73 = UDim2.new(1, 0, 0, 2)
+v15.Size = v73
+v16.Name = "Tab"
+v16.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v16.BackgroundColor3 = v73
+v16.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v16.Size = v73
+v16.Visible = false
+v16.Active = true
+v16.ScrollingDirection = Enum.ScrollingDirection.Y
+v16.AutomaticCanvasSize = Enum.AutomaticSize.Y
+v16.CanvasSize = UDim2.new(0, 0, 0, 0)
+v16.ScrollBarThickness = 5
+v16.ScrollBarImageTransparency = 0.25
+v17.Parent = v16
+v17.SortOrder = Enum.SortOrder.LayoutOrder
+v73 = UDim.new(0, 5)
+v17.Padding = v73
+v18.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v18.BackgroundColor3 = v73
+v18.BackgroundTransparency = 1
+v18.BorderSizePixel = 0
+v73 = UDim2.new(1, 0, 0, 20)
+v18.Size = v73
+v18.ZIndex = 2
+v18.Font = Enum.Font.Garamond
+v73 = Color3.new(0.698039, 0.698039, 0.698039)
+v18.PlaceholderColor3 = v73
+v18.PlaceholderText = "Input Text"
+v18.Text = ""
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v18.TextColor3 = v73
+v18.TextSize = 17
+v19.Name = "TextBox_Roundify_4px"
+v19.Parent = v18
+v73 = Color3.new(1, 1, 1)
+v19.BackgroundColor3 = v73
+v19.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v19.Size = v73
+v19.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.203922, 0.207843, 0.219608)
+v19.ImageColor3 = v73
+v19.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v19.SliceCenter = v73
+v20.Name = "Slider"
+v20.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v20.BackgroundColor3 = v73
+v20.BackgroundTransparency = 1
+v73 = UDim2.new(0, 0, 0.178571433, 0)
+v20.Position = v73
+v73 = UDim2.new(1, 0, 0, 20)
+v20.Size = v73
+v20.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.145098, 0.14902, 0.156863)
+v20.ImageColor3 = v73
+v20.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v20.SliceCenter = v73
+v21.Name = "Title"
+v21.Parent = v20
+v73 = Color3.new(1, 1, 1)
+v21.BackgroundColor3 = v73
+v21.BackgroundTransparency = 1
+v73 = UDim2.new(0.5, 0, 0.5, -10)
+v21.Position = v73
+v73 = UDim2.new(0, 0, 0, 20)
+v21.Size = v73
+v21.ZIndex = 2
+v21.Font = Enum.Font.Garamond
+v21.Text = "Slider"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v21.TextColor3 = v73
+v21.TextSize = 17
+v22.Name = "Indicator"
+v22.Parent = v20
+v73 = Color3.new(1, 1, 1)
+v22.BackgroundColor3 = v73
+v22.BackgroundTransparency = 1
+v73 = UDim2.new(0, 0, 0, 20)
+v22.Size = v73
+v22.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.254902, 0.262745, 0.278431)
+v22.ImageColor3 = v73
+v22.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v22.SliceCenter = v73
+v23.Name = "Value"
+v23.Parent = v20
+v73 = Color3.new(1, 1, 1)
+v23.BackgroundColor3 = v73
+v23.BackgroundTransparency = 1
+v73 = UDim2.new(1, -55, 0.5, -10)
+v23.Position = v73
+v73 = UDim2.new(0, 50, 0, 20)
+v23.Size = v73
+v23.Font = Enum.Font.Garamond
+v23.Text = "0%"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v23.TextColor3 = v73
+v23.TextSize = 17
+v24.Parent = v20
+v73 = Color3.new(1, 1, 1)
+v24.BackgroundColor3 = v73
+v24.BackgroundTransparency = 1
+v73 = UDim2.new(1, -20, -0.75, 0)
+v24.Position = v73
+v73 = UDim2.new(0, 26, 0, 50)
+v24.Size = v73
+v24.Font = Enum.Font.Garamond
+v24.Text = "]"
+v73 = Color3.new(0.627451, 0.627451, 0.627451)
+v24.TextColor3 = v73
+v24.TextSize = 17
+v25.Parent = v20
+v73 = Color3.new(1, 1, 1)
+v25.BackgroundColor3 = v73
+v25.BackgroundTransparency = 1
+v73 = UDim2.new(1, -65, -0.75, 0)
+v25.Position = v73
+v73 = UDim2.new(0, 26, 0, 50)
+v25.Size = v73
+v25.Font = Enum.Font.Garamond
+v25.Text = "["
+v73 = Color3.new(0.627451, 0.627451, 0.627451)
+v25.TextColor3 = v73
+v25.TextSize = 17
+v26.Name = "Circle"
+v26.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v26.BackgroundColor3 = v73
+v26.BackgroundTransparency = 1
+v26.Image = "rbxassetid://266543268"
+v26.ImageTransparency = 0.5
+v27.Parent = v2
+v27.FillDirection = Enum.FillDirection.Horizontal
+v27.SortOrder = Enum.SortOrder.LayoutOrder
+v73 = UDim.new(0, 20)
+v27.Padding = v73
+v28.Name = "Dropdown"
+v28.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v28.BackgroundColor3 = v73
+v28.BackgroundTransparency = 1
+v28.BorderSizePixel = 0
+v73 = UDim2.new(-0.055555556, 0, 0.0833333284, 0)
+v28.Position = v73
+v73 = UDim2.new(0, 200, 0, 20)
+v28.Size = v73
+v28.ZIndex = 2
+v28.Font = Enum.Font.Garamond
+v28.Text = "      Dropdown"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v28.TextColor3 = v73
+v28.TextSize = 14
+v28.TextXAlignment = Enum.TextXAlignment.Left
+v29.Name = "Indicator"
+v29.Parent = v28
+v73 = Color3.new(1, 1, 1)
+v29.BackgroundColor3 = v73
+v29.BackgroundTransparency = 1
+v73 = UDim2.new(0.899999976, -10, 0.100000001, 0)
+v29.Position = v73
+v29.Rotation = -90
+v73 = UDim2.new(0, 15, 0, 15)
+v29.Size = v73
+v29.ZIndex = 2
+v29.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=4744658743"
+v30.Name = "Box"
+v30.Parent = v28
+v73 = Color3.new(1, 1, 1)
+v30.BackgroundColor3 = v73
+v30.BackgroundTransparency = 1
+v73 = UDim2.new(0, 0, 0, 25)
+v30.Position = v73
+v73 = UDim2.new(1, 0, 0, 150)
+v30.Size = v73
+v30.ZIndex = 3
+v30.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.129412, 0.133333, 0.141176)
+v30.ImageColor3 = v73
+v30.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v30.SliceCenter = v73
+v31.Name = "Objects"
+v31.Parent = v30
+v73 = Color3.new(1, 1, 1)
+v31.BackgroundColor3 = v73
+v31.BackgroundTransparency = 1
+v31.BorderSizePixel = 0
+v73 = UDim2.new(1, 0, 1, 0)
+v31.Size = v73
+v31.ZIndex = 3
+v73 = UDim2.new(0, 0, 0, 0)
+v31.CanvasSize = v73
+v31.ScrollBarThickness = 8
+v32.Parent = v31
+v32.SortOrder = Enum.SortOrder.LayoutOrder
+v33.Name = "TextButton_Roundify_4px"
+v33.Parent = v28
+v73 = Color3.new(1, 1, 1)
+v33.BackgroundColor3 = v73
+v33.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v33.Size = v73
+v33.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.203922, 0.207843, 0.219608)
+v33.ImageColor3 = v73
+v33.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v33.SliceCenter = v73
+v34.Name = "TabButton"
+v34.Parent = v2
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v34.BackgroundColor3 = v73
+v34.BackgroundTransparency = 1
+v34.BorderSizePixel = 0
+v73 = UDim2.new(0.185185179, 0, 0, 0)
+v34.Position = v73
+v73 = UDim2.new(0, 71, 0, 20)
+v34.Size = v73
+v34.ZIndex = 2
+v34.Font = Enum.Font.Garamond
+v34.Text = "Test tab"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v34.TextColor3 = v73
+v34.TextSize = 17
+v35.Name = "TextButton_Roundify_4px"
+v35.Parent = v34
+v73 = Color3.new(1, 1, 1)
+v35.BackgroundColor3 = v73
+v35.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v35.Size = v73
+v35.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.203922, 0.207843, 0.219608)
+v35.ImageColor3 = v73
+v35.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v35.SliceCenter = v73
+v36.Name = "Folder"
+v36.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v36.BackgroundColor3 = v73
+v36.BackgroundTransparency = 1
+v73 = UDim2.new(0, 0, 0, 50)
+v36.Position = v73
+v73 = UDim2.new(1, 0, 0, 20)
+v36.Size = v73
+v36.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.0823529, 0.0862745, 0.0901961)
+v36.ImageColor3 = v73
+v36.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v36.SliceCenter = v73
+v37.Name = "Button"
+v37.Parent = v36
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v37.BackgroundColor3 = v73
+v37.BackgroundTransparency = 1
+v37.BorderSizePixel = 0
+v73 = UDim2.new(1, 0, 0, 20)
+v37.Size = v73
+v37.ZIndex = 2
+v37.Font = Enum.Font.Garamond
+v37.Text = "      Folder"
+v73 = Color3.new(1, 1, 1)
+v37.TextColor3 = v73
+v37.TextSize = 17
+v37.TextXAlignment = Enum.TextXAlignment.Left
+v38.Name = "TextButton_Roundify_4px"
+v38.Parent = v37
+v73 = Color3.new(1, 1, 1)
+v38.BackgroundColor3 = v73
+v38.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v38.Size = v73
+v38.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v38.ImageColor3 = v73
+v38.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v38.SliceCenter = v73
+v39.Name = "Toggle"
+v39.Parent = v37
+v73 = Color3.new(1, 1, 1)
+v39.BackgroundColor3 = v73
+v39.BackgroundTransparency = 1
+v73 = UDim2.new(0, 5, 0, 0)
+v39.Position = v73
+v73 = UDim2.new(0, 20, 0, 20)
+v39.Size = v73
+v39.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=4731371541"
+v40.Name = "Objects"
+v40.Parent = v36
+v73 = Color3.new(1, 1, 1)
+v40.BackgroundColor3 = v73
+v40.BackgroundTransparency = 1
+v73 = UDim2.new(0, 10, 0, 25)
+v40.Position = v73
+v73 = UDim2.new(1, -10, 1, -25)
+v40.Size = v73
+v40.Visible = false
+v41.Parent = v40
+v41.SortOrder = Enum.SortOrder.LayoutOrder
+v73 = UDim.new(0, 5)
+v41.Padding = v73
+v42.Name = "HorizontalAlignment"
+v42.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v42.BackgroundColor3 = v73
+v42.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 0, 20)
+v42.Size = v73
+v43.Parent = v42
+v43.FillDirection = Enum.FillDirection.Horizontal
+v43.SortOrder = Enum.SortOrder.LayoutOrder
+v73 = UDim.new(0, 5)
+v43.Padding = v73
+v44.Name = "Console"
+v44.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v44.BackgroundColor3 = v73
+v44.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 0, 200)
+v44.Size = v73
+v44.Image = "rbxassetid://2851928141"
+v73 = Color3.new(0.129412, 0.133333, 0.141176)
+v44.ImageColor3 = v73
+v44.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(8, 8, 8, 8)
+v44.SliceCenter = v73
+v45.Parent = v44
+v73 = Color3.new(1, 1, 1)
+v45.BackgroundColor3 = v73
+v45.BackgroundTransparency = 1
+v45.BorderSizePixel = 0
+v73 = UDim2.new(1, 0, 1, 1)
+v45.Size = v73
+v73 = UDim2.new(0, 0, 0, 0)
+v45.CanvasSize = v73
+v45.ScrollBarThickness = 4
+v46.Name = "Source"
+v46.Parent = v45
+v73 = Color3.new(1, 1, 1)
+v46.BackgroundColor3 = v73
+v46.BackgroundTransparency = 1
+v73 = UDim2.new(0, 40, 0, 0)
+v46.Position = v73
+v73 = UDim2.new(1, -40, 0, 10000)
+v46.Size = v73
+v46.ZIndex = 3
+v46.ClearTextOnFocus = false
+v46.Font = Enum.Font.Code
+v46.MultiLine = true
+v73 = Color3.new(0.8, 0.8, 0.8)
+v46.PlaceholderColor3 = v73
+v46.Text = ""
+v73 = Color3.new(1, 1, 1)
+v46.TextColor3 = v73
+v46.TextSize = 15
+v73 = Color3.new(1, 1, 1)
+v46.TextStrokeColor3 = v73
+v46.TextWrapped = true
+v46.TextXAlignment = Enum.TextXAlignment.Left
+v46.TextYAlignment = Enum.TextYAlignment.Top
+v47.Name = "Comments"
+v47.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v47.BackgroundColor3 = v73
+v47.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v47.Size = v73
+v47.ZIndex = 5
+v47.Font = Enum.Font.Code
+v47.Text = ""
+v73 = Color3.new(0.231373, 0.784314, 0.231373)
+v47.TextColor3 = v73
+v47.TextSize = 15
+v47.TextXAlignment = Enum.TextXAlignment.Left
+v47.TextYAlignment = Enum.TextYAlignment.Top
+v48.Name = "Globals"
+v48.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v48.BackgroundColor3 = v73
+v48.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v48.Size = v73
+v48.ZIndex = 5
+v48.Font = Enum.Font.Code
+v48.Text = ""
+v73 = Color3.new(0.517647, 0.839216, 0.968628)
+v48.TextColor3 = v73
+v48.TextSize = 15
+v48.TextXAlignment = Enum.TextXAlignment.Left
+v48.TextYAlignment = Enum.TextYAlignment.Top
+v49.Name = "Keywords"
+v49.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v49.BackgroundColor3 = v73
+v49.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v49.Size = v73
+v49.ZIndex = 5
+v49.Font = Enum.Font.Code
+v49.Text = ""
+v73 = Color3.new(0.972549, 0.427451, 0.486275)
+v49.TextColor3 = v73
+v49.TextSize = 15
+v49.TextXAlignment = Enum.TextXAlignment.Left
+v49.TextYAlignment = Enum.TextYAlignment.Top
+v50.Name = "RemoteHighlight"
+v50.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v50.BackgroundColor3 = v73
+v50.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v50.Size = v73
+v50.ZIndex = 5
+v50.Font = Enum.Font.Code
+v50.Text = ""
+v73 = Color3.new(0, 0.568627, 1)
+v50.TextColor3 = v73
+v50.TextSize = 15
+v50.TextXAlignment = Enum.TextXAlignment.Left
+v50.TextYAlignment = Enum.TextYAlignment.Top
+v51.Name = "Strings"
+v51.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v51.BackgroundColor3 = v73
+v51.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v51.Size = v73
+v51.ZIndex = 5
+v51.Font = Enum.Font.Code
+v51.Text = ""
+v73 = Color3.new(0.678431, 0.945098, 0.584314)
+v51.TextColor3 = v73
+v51.TextSize = 15
+v51.TextXAlignment = Enum.TextXAlignment.Left
+v51.TextYAlignment = Enum.TextYAlignment.Top
+v52.Name = "Tokens"
+v52.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v52.BackgroundColor3 = v73
+v52.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v52.Size = v73
+v52.ZIndex = 5
+v52.Font = Enum.Font.Code
+v52.Text = ""
+v73 = Color3.new(1, 1, 1)
+v52.TextColor3 = v73
+v52.TextSize = 15
+v52.TextXAlignment = Enum.TextXAlignment.Left
+v52.TextYAlignment = Enum.TextYAlignment.Top
+v53.Name = "Numbers"
+v53.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v53.BackgroundColor3 = v73
+v53.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v53.Size = v73
+v53.ZIndex = 4
+v53.Font = Enum.Font.Code
+v53.Text = ""
+v73 = Color3.new(1, 0.776471, 0)
+v53.TextColor3 = v73
+v53.TextSize = 15
+v53.TextXAlignment = Enum.TextXAlignment.Left
+v53.TextYAlignment = Enum.TextYAlignment.Top
+v54.Name = "Info"
+v54.Parent = v46
+v73 = Color3.new(1, 1, 1)
+v54.BackgroundColor3 = v73
+v54.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v54.Size = v73
+v54.ZIndex = 5
+v54.Font = Enum.Font.Code
+v54.Text = ""
+v73 = Color3.new(0, 0.635294, 1)
+v54.TextColor3 = v73
+v54.TextSize = 15
+v54.TextXAlignment = Enum.TextXAlignment.Left
+v54.TextYAlignment = Enum.TextYAlignment.Top
+v55.Name = "Lines"
+v55.Parent = v45
+v73 = Color3.new(1, 1, 1)
+v55.BackgroundColor3 = v73
+v55.BackgroundTransparency = 1
+v55.BorderSizePixel = 0
+v73 = UDim2.new(0, 40, 0, 10000)
+v55.Size = v73
+v55.ZIndex = 4
+v55.Font = Enum.Font.Code
+v55.Text = "1\n"
+v73 = Color3.new(1, 1, 1)
+v55.TextColor3 = v73
+v55.TextSize = 15
+v55.TextWrapped = true
+v55.TextYAlignment = Enum.TextYAlignment.Top
+v56.Name = "ColorPicker"
+v56.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v56.BackgroundColor3 = v73
+v56.BackgroundTransparency = 1
+v73 = UDim2.new(0, 180, 0, 110)
+v56.Size = v73
+v56.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.203922, 0.207843, 0.219608)
+v56.ImageColor3 = v73
+v56.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v56.SliceCenter = v73
+v57.Name = "Palette"
+v57.Parent = v56
+v73 = Color3.new(1, 1, 1)
+v57.BackgroundColor3 = v73
+v57.BackgroundTransparency = 1
+v73 = UDim2.new(0.0500000007, 0, 0.0500000007, 0)
+v57.Position = v73
+v73 = UDim2.new(0, 100, 0, 100)
+v57.Size = v73
+v57.Image = "rbxassetid://698052001"
+v57.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v57.SliceCenter = v73
+v58.Name = "Indicator"
+v58.Parent = v57
+v73 = Color3.new(1, 1, 1)
+v58.BackgroundColor3 = v73
+v58.BackgroundTransparency = 1
+v73 = UDim2.new(0, 5, 0, 5)
+v58.Size = v73
+v58.ZIndex = 2
+v58.Image = "rbxassetid://2851926732"
+v73 = Color3.new(0, 0, 0)
+v58.ImageColor3 = v73
+v58.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(12, 12, 12, 12)
+v58.SliceCenter = v73
+v59.Name = "Sample"
+v59.Parent = v56
+v73 = Color3.new(1, 1, 1)
+v59.BackgroundColor3 = v73
+v59.BackgroundTransparency = 1
+v73 = UDim2.new(0.800000012, 0, 0.0500000007, 0)
+v59.Position = v73
+v73 = UDim2.new(0, 25, 0, 25)
+v59.Size = v73
+v59.Image = "rbxassetid://2851929490"
+v59.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v59.SliceCenter = v73
+v60.Name = "Saturation"
+v60.Parent = v56
+v73 = Color3.new(1, 1, 1)
+v60.BackgroundColor3 = v73
+v73 = UDim2.new(0.649999976, 0, 0.0500000007, 0)
+v60.Position = v73
+v73 = UDim2.new(0, 15, 0, 100)
+v60.Size = v73
+v60.Image = "rbxassetid://3641079629"
+v61.Name = "Indicator"
+v61.Parent = v60
+v73 = Color3.new(1, 1, 1)
+v61.BackgroundColor3 = v73
+v61.BorderSizePixel = 0
+v73 = UDim2.new(0, 20, 0, 2)
+v61.Size = v73
+v61.ZIndex = 2
+v62.Name = "Switch"
+v62.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v62.BackgroundColor3 = v73
+v62.BackgroundTransparency = 1
+v62.BorderSizePixel = 0
+v73 = UDim2.new(0.229411766, 0, 0.20714286, 0)
+v62.Position = v73
+v73 = UDim2.new(0, 20, 0, 20)
+v62.Size = v73
+v62.ZIndex = 2
+v62.Font = Enum.Font.Garamond
+v62.Text = ""
+v73 = Color3.new(1, 1, 1)
+v62.TextColor3 = v73
+v62.TextSize = 18
+v63.Name = "TextButton_Roundify_4px"
+v63.Parent = v62
+v73 = Color3.new(1, 1, 1)
+v63.BackgroundColor3 = v73
+v63.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v63.Size = v73
+v63.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v63.ImageColor3 = v73
+v63.ImageTransparency = 0.5
+v63.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v63.SliceCenter = v73
+v64.Name = "Title"
+v64.Parent = v62
+v73 = Color3.new(1, 1, 1)
+v64.BackgroundColor3 = v73
+v64.BackgroundTransparency = 1
+v73 = UDim2.new(1.20000005, 0, 0, 0)
+v64.Position = v73
+v73 = UDim2.new(0, 20, 0, 20)
+v64.Size = v73
+v64.Font = Enum.Font.Garamond
+v64.Text = "Switch"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v64.TextColor3 = v73
+v64.TextSize = 17
+v64.TextXAlignment = Enum.TextXAlignment.Left
+v65.Name = "Button"
+v65.Parent = v2
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v65.BackgroundColor3 = v73
+v65.BackgroundTransparency = 1
+v65.BorderSizePixel = 0
+v73 = UDim2.new(0, 91, 0, 20)
+v65.Size = v73
+v65.ZIndex = 2
+v65.Font = Enum.Font.Garamond
+v73 = Color3.new(1, 1, 1)
+v65.TextColor3 = v73
+v65.TextSize = 17
+v66.Name = "TextButton_Roundify_4px"
+v66.Parent = v65
+v73 = Color3.new(1, 1, 1)
+v66.BackgroundColor3 = v73
+v66.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v66.Size = v73
+v66.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.160784, 0.290196, 0.478431)
+v66.ImageColor3 = v73
+v66.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v66.SliceCenter = v73
+v67.Name = "DropdownButton"
+v67.Parent = v2
+v73 = Color3.new(0.129412, 0.133333, 0.141176)
+v67.BackgroundColor3 = v73
+v67.BorderSizePixel = 0
+v73 = UDim2.new(1, 0, 0, 20)
+v67.Size = v73
+v67.ZIndex = 3
+v67.Font = Enum.Font.Garamond
+v67.Text = "      Button"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v67.TextColor3 = v73
+v67.TextSize = 17
+v67.TextXAlignment = Enum.TextXAlignment.Left
+v68.Name = "Keybind"
+v68.Parent = v2
+v73 = Color3.new(1, 1, 1)
+v68.BackgroundColor3 = v73
+v68.BackgroundTransparency = 1
+v73 = UDim2.new(0, 200, 0, 20)
+v68.Size = v73
+v68.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.203922, 0.207843, 0.219608)
+v68.ImageColor3 = v73
+v68.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v68.SliceCenter = v73
+v69.Name = "Title"
+v69.Parent = v68
+v73 = Color3.new(1, 1, 1)
+v69.BackgroundColor3 = v73
+v69.BackgroundTransparency = 1
+v73 = UDim2.new(0, 0, 1, 0)
+v69.Size = v73
+v69.Font = Enum.Font.Garamond
+v69.Text = "Keybind"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v69.TextColor3 = v73
+v69.TextSize = 17
+v69.TextXAlignment = Enum.TextXAlignment.Left
+v70.Name = "Input"
+v70.Parent = v68
+v73 = Color3.new(1, 1, 1)
+v70.BackgroundColor3 = v73
+v70.BackgroundTransparency = 1
+v70.BorderSizePixel = 0
+v73 = UDim2.new(1, -85, 0, 2)
+v70.Position = v73
+v73 = UDim2.new(0, 80, 1, -4)
+v70.Size = v73
+v70.ZIndex = 2
+v70.Font = Enum.Font.Garamond
+v70.Text = "RShift"
+v73 = Color3.new(0.784314, 0.784314, 0.784314)
+v70.TextColor3 = v73
+v70.TextSize = 12
+v70.TextWrapped = true
+v71.Name = "Input_Roundify_4px"
+v71.Parent = v70
+v73 = Color3.new(1, 1, 1)
+v71.BackgroundColor3 = v73
+v71.BackgroundTransparency = 1
+v73 = UDim2.new(1, 0, 1, 0)
+v71.Size = v73
+v71.Image = "rbxassetid://2851929490"
+v73 = Color3.new(0.290196, 0.294118, 0.313726)
+v71.ImageColor3 = v73
+v71.ScaleType = Enum.ScaleType.Slice
+v73 = Rect.new(4, 4, 4, 4)
+v71.SliceCenter = v73
+v72.Name = "Windows"
+v72.Parent = v1
+v73 = Color3.new(1, 1, 1)
+v72.BackgroundColor3 = v73
+v72.BackgroundTransparency = 1
+v73 = UDim2.new(0, 20, 0, 20)
+v72.Position = v73
+v73 = UDim2.new(1, 20, 1, -20)
+v72.Size = v73
+script.Parent = v1
+v73 = game:GetService("UserInputService")
+local v74 = game:GetService("TweenService")
+local v75 = game:GetService("RunService")
+local v76 = game:GetService("Players")
+local v77 = v76["LocalPlayer"]["GetMouse"]()
+local v78 = script.Parent["WaitForChild"]("Prefabs")
+local v79 = script.Parent:FindFirstChild("Windows")
+v73["InputBegan"]["Connect"](function(a, b)
+	local v80 = typeof(_u0.toggle_key)
+
+	if v80 == "EnumItem" then
+
+		if _u0.toggle_key then
+		else
+		end
+
+	end
+
+	if a.KeyCode == Enum.KeyCode.RightShift then
+
+		if not script.Parent then
+
+			if _u1.binding then
+				script.Parent.Enabled = not script.Parent.Enabled
+			end
+
+		end
+
+	end
+end)
+
+local function v81(a, b, c)
+	if c then
+	end
+
+	local v82 = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+	local v83 = _u0:Create(a, v82, b)
+	v83:Play()
+end
+
+local function v84(a, b, c)
+	local v85 = math.max(a / 255, b / 255, c / 255)
+	local v86 = math.min(a / 255, b / 255, c / 255)
+
+	if v85 == 0 then
+	else
+	end
+
+	if v85 == v86 then
+	else
+
+		if v85 == a / 255 then
+
+			if b / 255 < c / 255 then
+			else
+
+				if v85 == b / 255 then
+				else
+
+					if v85 == c / 255 then
+					end
+
+				end
+
+			end
+
+		end
+
+	end
+
+	return ((a / 255 - b / 255) / (v85 - v86) + 4) / 6, (v85 - v86) / v85, v85
+end
+
+local function v87(a, b)
+	local v89, v90 = pcall(function()
+		local v88 = tostring(_u1)
+		return _u0[v88]
+	end)
+
+	if not v89 then
+		do return v90 end
+	end
+end
+
+local function v91(a)
+	return a.TextBounds.X + 15
+end
+
+local function v92()
+	local v93 = _u0:GetMouseLocation()
+	local v94 = _u0:GetMouseLocation()
+	return Vector2.new(v93.X + 1, v94.Y - 35)
+	return Vector2.new
+end
+
+local function v95(a, b, c)
+	spawn(function()
+		_u0.ClipsDescendants = true
+		local v96 = _u1:FindFirstChild("Circle")
+		v96 = v96:Clone()
+		v96.Parent = _u0
+		v96.ZIndex = 1000
+		local v97 = UDim2.new(0, _u2 - v96.AbsolutePosition.X, 0, _u3 - v96.AbsolutePosition.Y)
+		v96.Position = v97
+
+		if _u0.AbsoluteSize.Y < _u0.AbsoluteSize.X then
+		else
+
+			if _u0.AbsoluteSize.X < _u0.AbsoluteSize.Y then
+			else
+
+				if _u0.AbsoluteSize.X == _u0.AbsoluteSize.Y then
+				end
+
+			end
+
+		end
+
+		local v98 = v96:TweenSizeAndPosition(_u0.AbsoluteSize.X * 1.5, 0, _u0.AbsoluteSize.X * 1.5)
+		local v99 = UDim2.new(0.5, -(_u0.AbsoluteSize.X * 1.5) / 2, 0.5, -(_u0.AbsoluteSize.X * 1.5) / 2)
+		v96:TweenSizeAndPosition(v96, v98, v99, "Out", "Quad", 0.5, false, nil)
+		_u4(v96, { ImageTransparency = 1 }, 0.5)
+		wait(0.5)
+		v96:Destroy()
+	end)
+end
+
+local function v100()
+	local v101 = _u0:FindFirstChild("UIListLayout")
+	v101 = v101:Clone()
+	v101.Parent = _u1
+	local v102, v103 = _u1:GetChildren()
+
+	while true do
+		local v105 = v104:IsA("UIListLayout")
+
+		if v105 then
+		end
+
+		for v106, v104 in next, v102, v103 do
+		end
+
+		v101:Destroy()
+
+		while true do
+			v105 = UDim2.new(0, v104.X, 0, v104.Y)
+			v106.Position = v105
+
+			for v106, v104 in next, v107, nil do
+			end
+end
+
+return {
+	["FormatWindows"] = function(a) _u0() end,
+	["AddWindow"] = function(a, b, c)
+	_u0 = _u0 + 1
+
+	if b then
+	end
+
+	local v108 = tostring("New Window")
+	v108 = typeof(c)
+
+	if v108 == "table" then
+
+		if c then
+		else
+		end
+
+	end
+
+	_u1.tween_time = 0.1
+	v108 = _u2:FindFirstChild("Window")
+	v108 = v108:Clone()
+	v108.Parent = _u3
+	local v109 = v108:FindFirstChild("Title")
+	v109.Text = v108
+	v109 = UDim2.new(0, _u1.min_size.X, 0, _u1.min_size.Y)
+	v108.Size = v109
+	v108.ZIndex = v108.ZIndex + _u0 * 10
+	v109 = v108:FindFirstChild("Title")
+	local v110 = v108:FindFirstChild("Bar")
+	local v111 = v110:FindFirstChild("Base")
+	local v112 = v110:FindFirstChild("Top")
+	local v113 = v108:FindFirstChild("TabSelection")
+	v113 = v113:FindFirstChild("Frame")
+	local v114 = v110:FindFirstChild("Toggle")
+	spawn(function()
+		while true do
+			_u0.BackgroundColor3 = _u1.main_color
+			_u2.BackgroundColor3 = _u1.main_color
+			_u2.ImageColor3 = _u1.main_color
+			_u3.ImageColor3 = _u1.main_color
+			_u4.BackgroundColor3 = _u1.main_color
+			_u5.Heartbeat:Wait()
+		end
+	end)
+	v109 = v108:WaitForChild("Resizer")
+	v108.Draggable = true
+	v109.MouseEnter:Connect(function()
+		_u0.Draggable = false
+
+		if not _u1.can_resize then
+			_u2 = _u3.Icon
+		end
+
+		_u4 = true
+	end)
+	v109.MouseLeave:Connect(function()
+		_u0 = false
+
+		if not _u1.can_resize then
+			_u2.Icon = _u3
+		end
+
+		_u4.Draggable = true
+	end)
+	_u6.InputBegan:Connect(function(a)
+		if a.UserInputType == Enum.UserInputType.MouseButton1 then
+			_u0 = true
+			spawn(function()
+				if not _u0 then
+
+					if not _u1.Active then
+
+						if not _u2.can_resize then
+
+							while true do
+
+								if not _u3 then
+
+									if not _u1.Active then
+										local v115 = _u4()
+
+										if _u2.min_size.X <= v115.X - _u5.AbsolutePosition.X then
+
+											if _u2.min_size.Y <= v115.Y - _u5.AbsolutePosition.Y then
+												local v116 = UDim2.new(0, v115.X - _u5.AbsolutePosition.X, 0, v115.Y - _u5.AbsolutePosition.Y)
+												_u6(_u5, { Size = v116 }, _u2.tween_time)
+											else
+											else
+
+												if _u2.min_size.X <= v115.X - _u5.AbsolutePosition.X then
+													v116 = UDim2.new(0, v115.X - _u5.AbsolutePosition.X, 0, _u2.min_size.Y)
+													_u6(_u5, { Size = v116 }, _u2.tween_time)
+												else
+
+													if _u2.min_size.Y <= v115.Y - _u5.AbsolutePosition.Y then
+														v116 = UDim2.new(0, _u2.min_size.X, 0, v115.Y - _u5.AbsolutePosition.Y)
+														_u6(_u5, { Size = v116 }, _u2.tween_time)
+													else
+														v116 = UDim2.new(0, _u2.min_size.X, 0, _u2.min_size.Y)
+														_u6(_u5, { Size = v116 }, _u2.tween_time)
+													end
+
+												end
+
+											end
+
+										end
+
+										_u7.Heartbeat:Wait()
+									end
+
+								end
+
+							end
+
+						end
+
+					end
+
+				end
+			end)
+		end
+	end)
+	_u6.InputEnded:Connect(function(a)
+		if a.UserInputType == Enum.UserInputType.MouseButton1 then
+			_u0 = false
+		end
+	end)
+	v111 = v108:FindFirstChild("Bar")
+	v111 = v111:FindFirstChild("Toggle")
+	v111.MouseButton1Click:Connect(function()
+		if not _u0 then
+			_u0 = false
+
+			if not _u1 then
+				_u2 = v117
+				local v118 = _u3:FindFirstChild("Tabs")
+				local v118, v119 = v118:GetChildren()
+
+				while true do
+					_u2[v120] = v120.Visible
+					v120.Visible = false
+
+					for v121, v120 in next, v118, v119 do
+					end
+
+					_u5 = _u3.AbsoluteSize.Y
+					_u6(_u7, { Rotation = 0 }, _u8.tween_time)
+					v121 = UDim2.new(0, _u3.AbsoluteSize.X, 0, 26)
+					_u6(_u3, { Size = v121 }, _u8.tween_time)
+					local v117 = _u7.Parent:FindFirstChild("Base")
+				else
+
+					while true do
+						_u8.tween_time.Visible = 0
+
+						for v121, v120 in next, _u2, nil do
+						end
+
+						_u6(_u7, { Rotation = 90 }, _u8.tween_time)
+						v121 = UDim2.new(0, _u3.AbsoluteSize.X, 0, _u5)
+						_u6(_u3, { Size = v121 }, _u8.tween_time)
+						v117 = _u7.Parent:FindFirstChild("Base")
+					end
+
+					_u1 = not _u1
+					wait(_u8.tween_time)
+					_u0 = true
+				end
+	end)
+	v111 = v108:FindFirstChild("Tabs")
+	v112 = v108:FindFirstChild({})
+	v113 = v112:FindFirstChild("TabButtons")
+	local v112, v113 = v108:GetDescendants()
+
+	while true do
+		local v273 = _u13("TabButtons", "ZIndex")
+
+		if not v273 then
+			"TabButtons".ZIndex = "TabButtons".ZIndex + _u0 * 10
+		end
+
+		for v114, v274 in next, v112, v113 do
+		end
+
+		return v110, v108
+end,
+}
