@@ -3715,11 +3715,26 @@ autoFarmBossFight:AddSwitch("Auto Fast Boss Hit", function(p40)
       local muscleEvent6 = v3.muscleEvent
 
       while autoBossFarm and muscleEvent6 do
+        local character9 = localPlayer11.Character
+        local humanoid6 = character9 and character9:FindFirstChildOfClass("Humanoid")
+
+        -- Keep the Boss Fight running through death/respawn.
+        -- As soon as a new character exists, the normal Boss Fight loop resumes.
+        if not character9 or not humanoid6 or humanoid6.Health <= 0 then
+          repeat
+            task.wait()
+            character9 = localPlayer11.Character
+            humanoid6 = character9 and character9:FindFirstChildOfClass("Humanoid")
+          until not autoBossFarm or not muscleEvent6 or (character9 and humanoid6 and humanoid6.Health > 0)
+        end
+
+        if not autoBossFarm or not muscleEvent6 then
+          break
+        end
+
         f1("Punch")
         local v77 = f21(v76[selectedBossName] or "Boss1")
-        local character9 = localPlayer11.Character
         local humanoidRootPart10 = character9 and character9:FindFirstChild("HumanoidRootPart")
-        local humanoid6 = character9 and character9:FindFirstChildOfClass("Humanoid")
         local rightHand3 = character9 and character9:FindFirstChild("RightHand")
 
         if v77 and humanoidRootPart10 and rightHand3 and humanoid6 then
